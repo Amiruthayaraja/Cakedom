@@ -1,0 +1,26 @@
+.content {
+    background-color: #a6a6a6;
+}
+
+.first-header {
+    background: url('https://i.ibb.co/VMhFHm5/pexels-brent-keane-1702373.jpg');
+}
+
+.second-header {
+    background: url('https://i.ibb.co/6ypTQp3/pexels-rene-asmussen-1405494.jpg');
+}
+
+.third-header {
+    background: url('https://i.ibb.co/xFn4S3S/pexels-anna-nekrashevich-7552317.jpg');
+}
+
+.fourth-header {
+    background: url('https://i.ibb.co/VMhFHm5/pexels-brent-keane-1702373.jpg');
+}
+
+.first-header, .second-header, .third-header, .fourth-header {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
